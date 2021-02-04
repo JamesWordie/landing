@@ -1,13 +1,17 @@
 .navbar {
-  background-color: rgb(69,123,157)
+  background-color: rgb(69,123,157);
   background-size: cover;
-  padding: 25px 0;
+  padding: 8px 25px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.navbar img {
-  width: 25px;
-  height: 25px;
+.navbar .logo {
+  background-image:url(../../images/lewagon.png);
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  border: 1px solid white;
+  background-size:cover;
 }
